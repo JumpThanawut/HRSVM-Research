@@ -1,5 +1,5 @@
 CXX ?= g++
-CFLAGS = -static-libgcc -static-libstdc++ -O3 -fPIC -w -Wfatal-errors
+CFLAGS = -fopenmp -static-libgcc -static-libstdc++ -O3 -fPIC -w -Wfatal-errors
 SHVER = 2
 OS = $(shell uname)
 
